@@ -1,6 +1,7 @@
 <script>
   import Greeting from "./Greeting.svelte";
   import IfLogic from "./IfLogic.svelte";
+  import EachList from "./EachList.svelte";
   export let name;
 </script>
 
@@ -13,3 +14,4 @@
 <h1>Hello {name}!</h1>
 <Greeting first_name="Guillaume" last_name="Bouffard" />
 <IfLogic />
+<EachList />
