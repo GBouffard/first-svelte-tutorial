@@ -4,6 +4,7 @@
   import IfLogic from "./IfLogic.svelte";
   import EachList from "./EachList.svelte";
   import EventDemo from "./EventDemo.svelte";
+  import BindingDemo from "./BindingDemo.svelte";
 </script>
 
 <style>
@@ -17,3 +18,4 @@
 <IfLogic />
 <EachList />
 <EventDemo />
+<BindingDemo />
